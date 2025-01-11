@@ -21,6 +21,8 @@ Tdisk=3.1*10**5
 K=39*2.3e-4*Rp**5*(G*Mp)**(1/2)/2
 F=23.5*D**3/TR
 dt = 1e-3
+
+##You can modify the duration of the simulation. Here it is during 1 year.
 t=np.arange(0,1,dt)
 
 
